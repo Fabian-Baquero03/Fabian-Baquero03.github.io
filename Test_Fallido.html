@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Test Amazon search functionality</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Test Amazon search functionality</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Test Amazon search functionality</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">33.680s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Failed tests</a>
+</li>
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+<li>
+<a href="#">Standard error</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="As a Customer, I want to search for Alexa and verify the third result on page 2 can be added to the cart"></a>
+<h3 class="failures">As a Customer, I want to search for Alexa and verify the third result on page 2 can be added to the cart</h3>
+<span class="code">
+<pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;add-to-cart-button&quot; name=&quot;submit.add-to-cart&quot; title=&quot;Add to Shopping Cart&quot; data-hover=&quot;Select &lt;b&gt;__dims__&lt;/b&gt; from the left&lt;br&gt; to add to Shopping Cart&quot; data-ref=&quot;&quot; class=&quot;a-button-input&quot; type=&quot;submit&quot; formaction=&quot;/cart/add-to-cart/ref=dp_start-bbf_1_glance&quot; value=&quot;Add to Cart&quot; aria-labelledby=&quot;submit.add-to-cart-announce&quot;&gt; is not clickable at point (879, 239). Other element would receive the click: &lt;a tabindex=&quot;-1&quot; href=&quot;javascript:void(0)&quot; aria-hidden=&quot;true&quot; data-value=&quot;{&amp;quot;stringVal&amp;quot;:&amp;quot;2&amp;quot;}&quot; id=&quot;quantity_1&quot; class=&quot;a-dropdown-link a-active&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ebd09781141d817840de478006ee596, clickElement {id=f.7F4877AD9C1E308E1860FF52039BE0CC.d.09930F5713E17B6A89924E6658511888.e.205}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\Usuario\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63078/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7ebd09781141d817840de478006ee596)] -&gt; xpath: //input[@id='add-to-cart-button']]
+Session ID: 7ebd09781141d817840de478006ee596
+	at java.base@17.0.14/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@17.0.14/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base@17.0.14/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@17.0.14/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base@17.0.14/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at app//pages.BasePage.clickElement(BasePage.java:92)
+	at app//pages.AmazonSearchPage.addToCart(AmazonSearchPage.java:56)
+	at app//steps.AmazonSearchSteps.itemCanBeAddendToTheCart(AmazonSearchSteps.java:36)
+	at ✽.the user is able to add it to the cart(file:///C:/Users/Usuario/SeleniumFreeRanger/src/test/resources/features/AmazonSearch.feature:12)
+</pre>
+</span>
+</div>
+</div>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">As a Customer, I want to search for Alexa and verify the third result on page 2 can be added to the cart</td>
+<td class="failures">33.680s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+@Amazon @Cart
+Scenario: As a Customer, I want to search for Alexa and verify the third result on page 2 can be added to the cart # src/test/resources/features/AmazonSearch.feature:7
+  Given the user navigates to www.amazon.com                                                                       # steps.AmazonSearchSteps.navigateToAmazon()
+  And searches for Alexa                                                                                           # steps.AmazonSearchSteps.enterSearchCriteria(java.lang.String)
+  And navigates to the page number 2                                                                               # steps.AmazonSearchSteps.navigateToSecondPage(java.lang.String)
+  And selects the third item                                                                                       # steps.AmazonSearchSteps.selectsThirdItem()
+  Then the user is able to add it to the cart                                                                      # steps.AmazonSearchSteps.itemCanBeAddendToTheCart()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;add-to-cart-button&quot; name=&quot;submit.add-to-cart&quot; title=&quot;Add to Shopping Cart&quot; data-hover=&quot;Select &lt;b&gt;__dims__&lt;/b&gt; from the left&lt;br&gt; to add to Shopping Cart&quot; data-ref=&quot;&quot; class=&quot;a-button-input&quot; type=&quot;submit&quot; formaction=&quot;/cart/add-to-cart/ref=dp_start-bbf_1_glance&quot; value=&quot;Add to Cart&quot; aria-labelledby=&quot;submit.add-to-cart-announce&quot;&gt; is not clickable at point (879, 239). Other element would receive the click: &lt;a tabindex=&quot;-1&quot; href=&quot;javascript:void(0)&quot; aria-hidden=&quot;true&quot; data-value=&quot;{&amp;quot;stringVal&amp;quot;:&amp;quot;2&amp;quot;}&quot; id=&quot;quantity_1&quot; class=&quot;a-dropdown-link a-active&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ebd09781141d817840de478006ee596, clickElement {id=f.7F4877AD9C1E308E1860FF52039BE0CC.d.09930F5713E17B6A89924E6658511888.e.205}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\Usuario\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63078/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7ebd09781141d817840de478006ee596)] -&gt; xpath: //input[@id='add-to-cart-button']]
+Session ID: 7ebd09781141d817840de478006ee596
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pages.BasePage.clickElement(BasePage.java:92)
+	at pages.AmazonSearchPage.addToCart(AmazonSearchPage.java:56)
+	at steps.AmazonSearchSteps.itemCanBeAddendToTheCart(AmazonSearchSteps.java:36)
+	at âœ½.the user is able to add it to the cart(file:///C:/Users/Usuario/SeleniumFreeRanger/src/test/resources/features/AmazonSearch.feature:12)
+
+
+    Scenario failing, please refer to the image attached to this report
+
+
+    Embedding Screenshot of the error [image/png 226124 bytes]
+
+</pre>
+</span>
+</div>
+<div class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+may. 16, 2025 7:09:52 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+may. 16, 2025 7:09:52 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.13</a> at 16/05/2025, 7:10:32 p. m.</p>
+</div>
+</div>
+</body>
+</html>
